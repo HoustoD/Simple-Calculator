@@ -54,8 +54,12 @@
             _lableOutput.text = firstEntry;
         }
         else{
-            firstEntry = [NSString stringWithFormat:@"%@%li",firstEntry,tag];            
+            firstEntry = [NSString stringWithFormat:@"%@%li",firstEntry,tag];
+            _lableOutput.text = firstEntry;
         }
+    }
+    else{
+        
     }
     
 }
