@@ -11,8 +11,10 @@
 @interface ViewController : UIViewController{
     bool operatorPressed;
     char op;
+    bool isComma;
     NSString *firstEntry;
     NSString *secondEntry;
+    NSString *line;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *lableOutput;
