@@ -16,7 +16,6 @@
     NSString *secondEntry;
     NSString *line;
 }
-
 @property (weak, nonatomic) IBOutlet UILabel *lableOutput;
 
 - (IBAction)clearPressed:(id)sender;

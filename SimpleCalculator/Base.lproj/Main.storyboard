@@ -256,14 +256,15 @@
                                     <action selector="minusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="26x-U6-yoy"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6k5-b2-vNw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rca-Zj-ocb">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
-                                <color key="textColor" red="1" green="0.73553247583757431" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.79337603670000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="147" width="400" height="103"/>
+                                    <rect key="frame" x="0.0" y="89" width="374" height="169"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -287,7 +288,7 @@
                                 <exclude reference="bon-e4-H4m"/>
                                 <exclude reference="jB8-HK-YqB"/>
                                 <exclude reference="Eao-lh-6Db"/>
-                                <exclude reference="6k5-b2-vNw"/>
+                                <exclude reference="rca-Zj-ocb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -308,12 +309,12 @@
                                 <include reference="bon-e4-H4m"/>
                                 <include reference="jB8-HK-YqB"/>
                                 <include reference="Eao-lh-6Db"/>
-                                <include reference="6k5-b2-vNw"/>
+                                <include reference="rca-Zj-ocb"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="lableOutput" destination="6k5-b2-vNw" id="e5n-WN-lcq"/>
+                        <outlet property="lableOutput" destination="rca-Zj-ocb" id="J6c-1c-KLT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

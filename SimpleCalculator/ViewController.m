@@ -21,6 +21,7 @@
     firstEntry = NULL;
     secondEntry = NULL;
     isComma = FALSE;
+    _lableOutput.numberOfLines = 0;
 }
 
 - (void)didReceiveMemoryWarning {
